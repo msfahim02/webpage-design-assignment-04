@@ -219,9 +219,10 @@ footer{
 
 /* Mobile media query */
 
-@media screen and (max-width: 747px){ 
+@media screen and (max-width: 767px){ 
     body{
-        width:747px;
+        width:100%;
+        height: 100%;
     }
     .header{
         display:flex;
@@ -241,8 +242,7 @@ footer{
 }
 #main-cam{
     position: absolute;
-    top: 230px;
-    right: -200px;
+    bottom: -81px;
 }
 .half-width{
     display: flex;
@@ -269,21 +269,36 @@ flex-direction: column;
 }
 .products{
     width: 100%;
-    height: 747px;
+    height: 100%;
     /* margin-bottom: 100px; */
 }
 .products img{
-    width: 700px;
-    height: 550px;
+    width: 100%;
+    height:100%;
    
     
 }
-.main-section-4{
+.section-4{
     display: flex;
-    /* flex-direction: column-reverse; */
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+}
+.featured{display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.gear img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
 }
 
  .right-header a, .fa-magnifying-glass, .main-section-4 footer {
         display: none;
     }
+}
 
