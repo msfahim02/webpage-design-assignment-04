@@ -242,7 +242,6 @@ footer{
 }
 #main-cam{
     position: absolute;
-    bottom: -81px;
 }
 .half-width{
     display: flex;
@@ -262,7 +261,6 @@ footer{
 
 .main-div{
 width: 100%;
-
 display: flex;
 flex-direction: column;
 
