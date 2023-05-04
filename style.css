@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: red; */
+    margin: 0;
+    background-color: #fff;
+}
+h1{
+    font-weight: 700;
+    color: darkcyan;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    height: 150px;
+    font-size: 24px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 30px;
+   
+   
+}
+.right-header a{
+
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(201, 3, 82);
+   
+}  
+.link-button{
+    display: flex;
+    text-decoration: none;
+    background-color: #E02C6D;
+    border-radius: 50px;
+    color: white;
+    width: 196px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+}
+#see-more{
+    display: flex;
+    text-decoration: none;
+    color: #E02C6D;
+    align-items: center;
+    justify-content: right;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section-1{
+    display: flex;
+    /* background-color: bisque; */
+    align-items: center;
+   
+}
+.half-width{
+    width: 50%;
+    align-items: center;
+    margin-left: 50px;
+   
+    
+}
+#circle{
+    width: 475px;
+    height: 475px;
+    /* position: absolute; */
+    bottom: 50px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: right;
+}
+#main-cam{
+    /* width: 50%;  */
+    /* background-color: darkslategrey; */
+    display: inline-block;
+    width: 440px;
+    height: 414px;
+    position: absolute;
+    right: 120px   ;
+    bottom: -50px;
+
+}
+.left-div{
+    /* background-color: coral; */
+    width: 80%;
+
+}
+.section-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 30px;
+   /* border: 1px solid rgb(197, 195, 195); */
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+   box-shadow: 5;
+   margin-top: 20px;
+   width: 1110px;
+   height: 110px;
+  
+}
+.section-3{
+
+    /* background-color: aquamarine; */
+}
+.section-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #861919; */
+}
+.products{
+    /* display: flex; */
+    flex-direction: column;
+    /* border: 2px solid rgb(20, 116, 232); */
+    width: 329px;
+    height: 476px;
+    /* margin: 10px; */
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* background-color: #861919; */
+    
+}
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    /* margin-bottom: 10px; */
+    height: 20px;
+    /* background-color: #760303; */
+    width: 150px;
+}
+.image{
+    /* background-color: aquamarine; */
+    font-size: 15px;
+    margin-left: 15px;
+}
+.image img{
+    width: 300px;
+    height: 256px;
+    margin-top: 10px;
+}
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.position{
+    text-align: center;
+    font-size: 30px;
+}
+.para-position{
+    /* text-align: center; */
+    margin-left: 10px;
+    margin-right: 30px;
+} span i{
+    margin: 0px;
+    justify-content: space-between;
+}
+.main-section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-4{
+    display: flex;
+    width: 1110px;
+    height: 270px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 100px;
+   
+
+    
+}
+footer{
+    width: 100%;
+    height:  239px;
+    background-color: #0A0826;
+    color: white;
+ 
+}
+.footer-area
+{   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#span i{
+    /* background-color: rgb(78, 78, 15); */
+    margin-left: 40px;
+    font-size: 30px;
+}
+.featured{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+#join-now{
+    text-decoration: none;
+    width: 155px;
+    height: 44px;
+    background-color:#E02C6D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.fa-star, .fa-star-half-stroke{
+  color: #FB8200;
+}
+
+/* Mobile media query */
+
+@media screen and (max-width: 767px){ 
+       
+
+
+
+
+
+
+    .main-section-4, .section-1, .section-2, .section-3, footer {
+        display: none;
+    }
+ 
+}
